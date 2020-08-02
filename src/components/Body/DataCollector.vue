@@ -1,6 +1,12 @@
 <template>
     <div>
-        <p>{{results}}</p>
+        <ul>
+            <li v-for="img in results" :key="img">
+                <div v-for="(img1,i1) in results" :key="img1">
+                    {{img1}} {{i1}}
+                </div>
+            </li>
+        </ul>
     </div>
 </template>
 
