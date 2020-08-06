@@ -1,6 +1,7 @@
 <template>
   <div id="app" >
     <Header></Header>
+    <DataVisual></DataVisual>
     <Address></Address>
   </div>
 </template>
@@ -9,11 +10,13 @@
 import Header from './components/Header/Header'
 import Address from '@/components/Footer/Address'
 //import DataCollector from '@/components/Body/DataCollector'
+import DataVisual from '@/components/Visuals/DataVisual'
 export default {
   name: 'App',
   components: {
-    Header : Header,
-    Address : Address,
+    Header,
+    Address,
+    DataVisual,
   }   
 }
 </script>
