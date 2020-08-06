@@ -27,5 +27,14 @@ new Chart(document.getElementById('my-chart'), {
         data: [600, 550, 750, 250, 700]
       }
     ]
+  },
+  options: {
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    }
   }
 });
