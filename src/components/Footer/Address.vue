@@ -37,7 +37,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>© Copyright 2020 || SUBBHASHIT MUKHERJEE</p>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
 </template>
 <style scoped>
 .footer {
-  background-color: #B993D6;
+  background-color: #6097bb;
   margin: 0px auto;
   padding: 20px 0px;
 }
