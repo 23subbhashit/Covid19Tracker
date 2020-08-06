@@ -1,5 +1,6 @@
 <template>
   <div id="app" >
+    <Navbar></Navbar>
     <Header></Header>
     <DataVisual></DataVisual>
     <Address></Address>
@@ -7,16 +8,17 @@
 </template>
 
 <script>
-import Header from './components/Header/Header'
+//import Header from './components/Header/Header'
 import Address from '@/components/Footer/Address'
 //import DataCollector from '@/components/Body/DataCollector'
 import DataVisual from '@/components/Visuals/DataVisual'
+import Navbar from '@/components/Header/Navbar'
 export default {
   name: 'App',
   components: {
-    Header,
     Address,
     DataVisual,
+    Navbar,
   }   
 }
 </script>
