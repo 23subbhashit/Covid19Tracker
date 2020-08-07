@@ -2,14 +2,28 @@
   <div id="app" >
     <Navbar></Navbar>
     <Header></Header>
+
+    <br>
+    <br>
+
     <h2>COVID19 CASES</h2>
     <DataVisual></DataVisual>
 
+    <br>
+    <br>
+
     <h2>DEATHS</h2>
     <DataVisual></DataVisual>
+
+    <br>
+    <br>
     
     <h2>RECOVERED</h2>
     <DataVisual></DataVisual>
+
+    <br>
+    <br>
+    
     <Address></Address>
   </div>
 </template>
