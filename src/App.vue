@@ -7,19 +7,22 @@
     <br>
 
     <h2>COVID19 CASES</h2>
-    <DataVisual></DataVisual>
+    <Lineplot></Lineplot>
+    <Barplot></Barplot>
 
     <br>
     <br>
 
     <h2>DEATHS</h2>
-    <DataVisual></DataVisual>
+    <Lineplot></Lineplot>
+    <Barplot></Barplot>
 
     <br>
     <br>
     
     <h2>RECOVERED</h2>
-    <DataVisual></DataVisual>
+    <Lineplot></Lineplot>
+    <Barplot></Barplot>
 
     <br>
     <br>
@@ -29,17 +32,17 @@
 </template>
 
 <script>
-//import Header from './components/Header/Header'
 import Address from '@/components/Footer/Address'
-//import DataCollector from '@/components/Body/DataCollector'
-import DataVisual from '@/components/Visuals/DataVisual'
 import Navbar from '@/components/Header/Navbar'
+import Lineplot from '@/components/Visuals/Lineplot'
+import Barplot from '@/components/Visuals/Barplot'
 
 export default {
   name: 'App',
   components: {
     Address,
-    DataVisual,
+    Lineplot,
+    Barplot,
     Navbar,
   }   
 }
