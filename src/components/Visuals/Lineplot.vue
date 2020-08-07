@@ -15,8 +15,8 @@ export default {
         datasets: [
         {
             label: '2018 Sales',
-            borderColor: 'rgba(50, 115, 220, 0.5)',
-            backgroundColor: 'rgba(50, 115, 220, 0.1)',
+            borderColor: 'rgba(245, 229, 27, 1)',
+            backgroundColor: 'rgba(255, 236, 139,0.2)',
             data: [300, 700, 450, 750, 450]
         },
         {

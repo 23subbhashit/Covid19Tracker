@@ -9,33 +9,30 @@ export default {
   name: 'monthly-sales-chart',
   mounted() {
     new Chart(this.$refs.myChart, {
-      type: 'bar',
-      data: {
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
-        datasets: [
-        {
-            label: '2018 Sales',
-            borderColor: 'rgba(50, 115, 220, 0.5)',
-            backgroundColor: 'rgba(50, 115, 220, 0.1)',
-            data: [300, 700, 450, 750, 450]
-        },
-        {
-            label: '2017 Sales',
-            borderColor: 'rgba(255, 56, 96, 0.5)',
-            backgroundColor: 'rgba(255, 56, 96, 0.1)',
-            data: [600, 550, 750, 250, 700]
-        }
-        ]
-      },
-      options: {
+     type: 'bar',
+  data: {
+    labels: [0, 1, 2, 3, 4, 5],
+    datasets: [{
+      label: 'Group A',
+      data: [12, 19, 3, 5, 20 , 25],
+      backgroundColor: 'rgba(144,238,144 , 0.9 )',
+    }]
+  },
+  options: {
     scales: {
+      xAxes: [{
+        display: false,
+        barPercentage: 1.30,
+      }, {
+        display: true,
+      }],
       yAxes: [{
         ticks: {
-          beginAtZero: true
+          beginAtZero:true
         }
       }]
     }
-    }
+  }
     });
   }
 }
