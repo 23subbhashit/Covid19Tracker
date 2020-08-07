@@ -2,6 +2,13 @@
   <div id="app" >
     <Navbar></Navbar>
     <Header></Header>
+    <h2>COVID19 CASES</h2>
+    <DataVisual></DataVisual>
+
+    <h2>DEATHS</h2>
+    <DataVisual></DataVisual>
+    
+    <h2>RECOVERED</h2>
     <DataVisual></DataVisual>
     <Address></Address>
   </div>
@@ -13,6 +20,7 @@ import Address from '@/components/Footer/Address'
 //import DataCollector from '@/components/Body/DataCollector'
 import DataVisual from '@/components/Visuals/DataVisual'
 import Navbar from '@/components/Header/Navbar'
+
 export default {
   name: 'App',
   components: {
