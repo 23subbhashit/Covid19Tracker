@@ -4,20 +4,25 @@
     <Nav></Nav>
       <br>
       <br>
+      <DataCollector></DataCollector>
+      <br>
+      <br>
       <router-view></router-view>
-    <Footer1></Footer1>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Nav from '@/components/Header/Nav'
-import Footer1 from '@/components/Footer/Footer1'
+import Footer from '@/components/Footer/Footer'
+import DataCollector from '@/components/DataGathering/DataCollector'
 
 export default {
   name: 'App',
   components: {
     Nav,
-    Footer1,
+    Footer,
+    DataCollector,
   }   
 }
 </script>

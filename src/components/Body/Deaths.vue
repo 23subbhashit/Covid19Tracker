@@ -2,7 +2,11 @@
     <div>
         <h2>Deaths</h2>
         <Lineplot></Lineplot>
+        <br>
+        <br>
         <Barplot></Barplot>
+        <br>
+        <br>
     </div>
 </template>
 

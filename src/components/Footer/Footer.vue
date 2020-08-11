@@ -1,4 +1,6 @@
 <template>
+<div>
+
   <!-- Footer -->
 <footer class="page-footer font-small mdb-color lighten-3 pt-4">
 
@@ -43,19 +45,15 @@
         <ul class="list-unstyled">
           <li>
             <p>
-              <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <i class="fa fa-home mr-3"></i>BMSIT&M , Yelahanka , Banglore</p>
           </li>
           <li>
             <p>
-              <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+              <i class="fa fa-user mr-3"></i>subbhashitmukherjee@gmail.com</p>
           </li>
           <li>
             <p>
-              <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-          </li>
-          <li>
-            <p>
-              <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              <i class="fa fa-phone mr-3"></i> + 91 9140927375</p>
           </li>
         </ul>
 
@@ -68,24 +66,12 @@
       <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
 
         <!-- Social buttons -->
-        <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+        <h5 class="font-weight-bold text-uppercase mb-4">Follow Me</h5>
 
-        <!-- Facebook -->
-        <a type="button" class="btn-floating btn-fb">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <!-- Twitter -->
-        <a type="button" class="btn-floating btn-tw">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <!-- Google +-->
-        <a type="button" class="btn-floating btn-gplus">
-          <i class="fab fa-google-plus-g"></i>
-        </a>
-        <!-- Dribbble -->
-        <a type="button" class="btn-floating btn-dribbble">
-          <i class="fab fa-dribbble"></i>
-        </a>
+        <a href="https://www.facebook.com/subbhashit.mukherjee" class="btn btn-facebook"><i class="fa fa-facebook fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/subbhashit-mukherjee-71849a148/" class="btn btn-linkedin"><i class="fa fa-linkedin fa-lg"></i></a>
+        <a href="https://twitter.com/SMukhkherjee" class="btn btn-twitter"><i class="fa fa-twitter fa-lg"></i></a>
+        <a href="http://youtube.com/" class="btn btn-google"><i class="fa fa-github fa-lg"></i></a>
 
       </div>
       <!-- Grid column -->
@@ -98,10 +84,11 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a href="https://23subbhashit.github.io/">23SUBBHASHIT</a>
   </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
+</div>
 </template>

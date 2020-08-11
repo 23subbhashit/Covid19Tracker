@@ -2,7 +2,11 @@
     <div>
         <h2>Recovered</h2>
         <Lineplot></Lineplot>
+        <br>
+        <br>
         <Barplot></Barplot>
+        <br>
+        <br>
     </div>
 </template>
 
