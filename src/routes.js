@@ -1,6 +1,10 @@
-import Address from '@/components/Footer/Address'
-import Lineplot from '@/components/Visuals/Lineplot'
+import Deaths from '@/components/Body/Deaths'
+import Cases from '@/components/Body/Cases'
+import Recovered from '@/components/Body/Recovered'
+
+
 export const routes=[
-    { path : '/' , component : Address  },
-    { path : '/navbar' , component : Lineplot }
+    { path : '/' , component : Deaths },
+    { path : '/cases' , component : Cases },
+    { path : '/recovered' , component : Recovered },
 ]
