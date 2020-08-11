@@ -12,8 +12,13 @@
             <li class="nav-item">
               <router-link to="/" class="nav-link">Home</router-link>
             </li>
+
             <li class="nav-item">
               <router-link to="/cases" class="nav-link">Cases</router-link>
+            </li>
+
+            <li class="nav-item">
+              <router-link to="/deaths" class="nav-link">Deaths</router-link>
             </li>
 
             <li class="nav-item">

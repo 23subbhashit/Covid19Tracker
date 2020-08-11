@@ -13,7 +13,7 @@ export default {
   data: {
     labels: [0, 1, 2, 3, 4, 5],
     datasets: [{
-      label: 'Group A',
+      label: 'Barplot',
       data: [12, 19, 3, 5, 20 , 25],
       backgroundColor: 'rgba(144,238,144 , 0.9 )',
     }]

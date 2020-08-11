@@ -4,9 +4,6 @@
     <Nav></Nav>
       <br>
       <br>
-      <DataCollector></DataCollector>
-      <br>
-      <br>
       <router-view></router-view>
     <Footer></Footer>
   </div>
@@ -15,14 +12,12 @@
 <script>
 import Nav from '@/components/Header/Nav'
 import Footer from '@/components/Footer/Footer'
-import DataCollector from '@/components/DataGathering/DataCollector'
 
 export default {
   name: 'App',
   components: {
     Nav,
     Footer,
-    DataCollector,
   }   
 }
 </script>

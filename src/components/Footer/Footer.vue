@@ -71,7 +71,7 @@
         <a href="https://www.facebook.com/subbhashit.mukherjee" class="btn btn-facebook"><i class="fa fa-facebook fa-lg"></i></a>
         <a href="https://www.linkedin.com/in/subbhashit-mukherjee-71849a148/" class="btn btn-linkedin"><i class="fa fa-linkedin fa-lg"></i></a>
         <a href="https://twitter.com/SMukhkherjee" class="btn btn-twitter"><i class="fa fa-twitter fa-lg"></i></a>
-        <a href="http://youtube.com/" class="btn btn-google"><i class="fa fa-github fa-lg"></i></a>
+        <a href="https://github.com/23subbhashit" class="btn btn-google"><i class="fa fa-github fa-lg"></i></a>
 
       </div>
       <!-- Grid column -->
