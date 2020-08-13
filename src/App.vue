@@ -2,6 +2,8 @@
   <div id="app" >
     
     <Nav></Nav>
+      
+      <Jumbo></Jumbo>
       <br>
       <br>
       <router-view></router-view>

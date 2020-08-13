@@ -1,5 +1,7 @@
 <template>
     <div>
+        <RecoveredBread></RecoveredBread>
+        <br>
         <h2>Recovered</h2>
         <RecoveredLine></RecoveredLine>
         <br>
@@ -13,10 +15,12 @@
 <script>
 import RecoveredLine from '../Visuals/RecoveredLine.vue'
 import RecoveredBar from '@/components/Visuals/RecoveredBar'
+import RecoveredBread from '@/components/HomePage/RecoveredBread'
 export default {
     components : {
         RecoveredLine,
         RecoveredBar,
+        RecoveredBread,
     }
 }
 </script>
