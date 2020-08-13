@@ -1,22 +1,22 @@
 <template>
     <div>
         <h2>Deaths</h2>
-        <Lineplot></Lineplot>
+        <DeathsLine></DeathsLine>
         <br>
         <br>
-        <Barplot></Barplot>
+        <DeathsBar></DeathsBar>
         <br>
         <br>
     </div>
 </template>
 
 <script>
-import Lineplot from '@/components/Visuals/Lineplot'
-import Barplot from '@/components/Visuals/Barplot'
+import DeathsBar from '@/components/Visuals/DeathsBar'
+import DeathsLine from '@/components/Visuals/DeathsLine'
 export default {
     components : {
-        Lineplot,
-        Barplot,
+        DeathsBar,
+        DeathsLine,
     }
 }
 </script>

@@ -1,22 +1,22 @@
 <template>
     <div>
         <h2>Recovered</h2>
-        <Lineplot></Lineplot>
+        <RecoveredLine></RecoveredLine>
         <br>
         <br>
-        <Barplot></Barplot>
+        <RecoveredBar></RecoveredBar>
         <br>
         <br>
     </div>
 </template>
 
 <script>
-import Lineplot from '@/components/Visuals/Lineplot'
-import Barplot from '@/components/Visuals/Barplot'
+import RecoveredLine from '../Visuals/RecoveredLine.vue'
+import RecoveredBar from '@/components/Visuals/RecoveredBar'
 export default {
     components : {
-        Lineplot,
-        Barplot,
+        RecoveredLine,
+        RecoveredBar,
     }
 }
 </script>

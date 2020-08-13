@@ -1,22 +1,22 @@
 <template>
     <div>
         <h2>Cases</h2>
-        <Lineplot></Lineplot>
+        <CasesLine></CasesLine>
         <br>
         <br>
-        <Barplot></Barplot>
+        <CasesBar></CasesBar>
         <br>
         <br>
     </div>
 </template>
 
 <script>
-import Lineplot from '@/components/Visuals/Lineplot'
-import Barplot from '@/components/Visuals/Barplot'
+import CasesBar from '@/components/Visuals/CasesBar'
+import CasesLine from '@/components/Visuals/CasesLine'
 export default {
     components : {
-        Lineplot,
-        Barplot,
+        CasesLine,
+        CasesBar,
     }
 }
 </script>
