@@ -1,6 +1,6 @@
 # covid19tracker
 
-## Curently under work
+## Currently under work
 
 <hr>
 
