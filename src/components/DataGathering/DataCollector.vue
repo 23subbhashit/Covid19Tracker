@@ -18,8 +18,8 @@ export default {
   },
   mounted () {
     axios
-      .get('https://covid19.mathdro.id/api/')
-      .then(response => this.results = response.data.confirmed.value)
+      .get('https://covid19.mathdro.id/api/confirmed')
+      .then(response => console.log(response.data))
       .catch(err => console.log(err))
   }    
    
