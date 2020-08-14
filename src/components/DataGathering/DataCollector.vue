@@ -4,7 +4,7 @@
                 <p>Confirmed : {{value.value}}</p>
             </div>-->
                  <!-- <p v-if='value.provinceState=="Maharashtra"'>{{value.provinceState}} ,{{value.confirmed}},{{value.deaths}},{{value.recovered}}</p>-->
-            <p>{{ results }}</p>
+            
     </div>
 </template>
 
