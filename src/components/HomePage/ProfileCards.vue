@@ -24,7 +24,7 @@
                             <div class="card">
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">Subbhashit Mukherjee</h4>
-                                    <p class="card-text">My name is Subbhashit Mukherjee and i am currently completing my B.E. from BMS institute of technology and management🚀.I am a Data Science enthusiast 👨‍💻 and love to learn different topics in it.I have a good experience in backend with node,Mongo and Express.</p>
+                                    <p class="card-text">My name is Subbhashit Mukherjee and i am currently completing my B.E. from BMS institute of technology and management🚀.I am a Data Science enthusiast 👨‍💻 and love to learn different topics in it.</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/subbhashit.mukherjee/">
@@ -64,15 +64,15 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="./assets/Subbhashit.jpeg" alt="card image" width="150px" height="200px"></p>
-                                    <h4 class="card-title">Frontend Developer</h4>
+                                    <h4 class="card-title">Backend Developer</h4>
                                     </div>
                             </div>
                         </div>
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Subbhashit Mukherjee</h4>
-                                    <p class="card-text">My name is Subbhashit Mukherjee and i am currently completing my B.E. from BMS institute of technology and management🚀.I am a Data Science enthusiast 👨‍💻 and love to learn different topics in it.I have a good experience in backend with node,Mongo and Express.</p>
+                                    <h4 class="card-title">Tarush J Reddy</h4>
+                                    <p class="card-text">Hey guys, this is Tarush I am a Computer Science student in BMS institution Bengaluru. I am a Java Developer and an Android Developer. Jai Hind Vande Matharam..</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/subbhashit.mukherjee/">

@@ -1,4 +1,7 @@
 <template>
+<div>
+    <br>
+    <br>
     <div>
         <RecoveredBread></RecoveredBread>
         <br>
@@ -10,6 +13,7 @@
         <br>
         <br>
     </div>
+</div>
 </template>
 
 <script>
