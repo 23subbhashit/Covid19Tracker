@@ -8,7 +8,7 @@
 <script>
 import Jumbo from '@/components/HomePage/Jumbo'
 import ProfileCards from '@/components/HomePage/ProfileCards'
-import Bread from '@/components/HomePage/Bread'
+import Bread from '@/components/HomePage/Breads/Bread'
 export default {   
     components : {
         ProfileCards,

@@ -15,7 +15,7 @@
 <script>
 import CasesBar from '@/components/Visuals/CasesBar'
 import CasesLine from '@/components/Visuals/CasesLine'
-import CaseBread from '@/components/HomePage/CaseBread'
+import CaseBread from '@/components/HomePage/Breads/CaseBread'
 export default {
     components : {
         CasesLine,

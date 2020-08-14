@@ -15,7 +15,7 @@
 <script>
 import DeathsBar from '@/components/Visuals/DeathsBar'
 import DeathsLine from '@/components/Visuals/DeathsLine'
-import DeathsBread from '@/components/HomePage/DeathsBread'
+import DeathsBread from '@/components/HomePage/Breads/DeathsBread'
 export default {
     components : {
         DeathsBar,

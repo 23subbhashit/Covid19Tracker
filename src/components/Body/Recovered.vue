@@ -15,7 +15,7 @@
 <script>
 import RecoveredLine from '../Visuals/RecoveredLine.vue'
 import RecoveredBar from '@/components/Visuals/RecoveredBar'
-import RecoveredBread from '@/components/HomePage/RecoveredBread'
+import RecoveredBread from '@/components/HomePage/Breads/RecoveredBread'
 export default {
     components : {
         RecoveredLine,
