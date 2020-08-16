@@ -1,5 +1,5 @@
 <template>
-    <div class="jumbotron">
+    <div class="jumbotron m-3">
 <div class="row w-100">
         <div class="col-md-4">
             <div class="card border-info mx-sm-1 p-3">

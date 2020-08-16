@@ -1,10 +1,6 @@
 <template>
     <div>
-          <!-- <div v-for="value in results" :key="value">
-                <p>Confirmed : {{value.value}}</p>
-            </div>-->
-                 <!-- <p v-if='value.provinceState=="Maharashtra"'>{{value.provinceState}} ,{{value.confirmed}},{{value.deaths}},{{value.recovered}}</p>-->
-            
+      
     </div>
 </template>
 

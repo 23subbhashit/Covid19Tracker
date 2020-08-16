@@ -4,6 +4,7 @@
     <br>
     <div>
         <RecoveredBread></RecoveredBread>
+        <hr/>
         <br>
         <h2>Recovered</h2>
         <RecoveredLine></RecoveredLine>

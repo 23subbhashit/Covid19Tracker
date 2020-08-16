@@ -4,6 +4,7 @@
     <br>
     <div>
         <CaseBread></CaseBread>
+        <hr/>
         <br>
         <h2>Cases</h2>
         <CasesLine></CasesLine>

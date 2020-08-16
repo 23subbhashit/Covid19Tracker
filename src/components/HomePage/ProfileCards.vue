@@ -9,7 +9,7 @@
         <br>
         <div class="row">
             <!-- Team member -->
-            <div class="col-xs-12 col-sm- col-md-6">
+            <div class="col col-md-4 offset-2">
                 <div class="image-flip" >
                     <div class="mainflip flip-0">
                         <div class="frontside">
@@ -57,7 +57,7 @@
             <!-- ./Team member -->
             
             <!-- Team member -->
-            <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="col col-md-4">
                 <div class="image-flip" >
                     <div class="mainflip flip-0">
                         <div class="frontside">

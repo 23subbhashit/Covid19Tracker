@@ -4,6 +4,7 @@
     <br>
     <div>
         <DeathsBread></DeathsBread>
+        <hr/>
         <br>
         <h2>Deaths</h2>
         <DeathsLine></DeathsLine>
