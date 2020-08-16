@@ -7,10 +7,16 @@
         <hr/>
         <br>
         <h2>Cases</h2>
-        <CasesLine></CasesLine>
+        <CasesLine
+        :label="labels"
+        :chart-data="deaths" 
+        ></CasesLine>
         <br>
         <br>
-        <CasesBar></CasesBar>
+        <CasesBar
+        :label="labels"
+        :chart-data="deaths" 
+        ></CasesBar>
         <br>
         <br>
     </div>
@@ -22,6 +28,13 @@ import CasesBar from '@/components/Visuals/CasesBar'
 import CasesLine from '@/components/Visuals/CasesLine'
 import CaseBread from '@/components/HomePage/Breads/CaseBread'
 export default {
+     data : ()=> {
+        return {
+            labels : ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+            deaths : [300, 700, 450, 750, 450],
+        }
+        
+    },
     components : {
         CasesLine,
         CasesBar,

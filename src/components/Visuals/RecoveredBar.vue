@@ -7,32 +7,36 @@ import Chart from 'chart.js';
 
 export default {
   name: 'monthly-sales-chart',
+  props: {
+    label: {
+      type: String
+    },
+    chartData: {
+      type: Array
+    },
+  },
   mounted() {
     new Chart(this.$refs.myChart, {
-     type: 'bar',
-  data: {
-    labels: [0, 1, 2, 3, 4, 5],
-    datasets: [{
-      label: 'Barplot',
-      data: [12, 19, 3, 5, 20 , 25],
-      backgroundColor: 'rgba(144,238,144 , 0.9 )',
-    }]
-  },
-  options: {
+      type: 'bar',
+      data: {
+        labels: this.label,
+        datasets: [
+        {
+            label: 'RECOVERED',
+            backgroundColor: 'rgba(144,238,144 , 0.9 )',
+            data: this.chartData,
+        }
+        ]
+      },
+      options: {
     scales: {
-      xAxes: [{
-        display: false,
-        barPercentage: 1.30,
-      }, {
-        display: true,
-      }],
       yAxes: [{
         ticks: {
-          beginAtZero:true
+          beginAtZero: true
         }
       }]
     }
-  }
+    }
     });
   }
 }
