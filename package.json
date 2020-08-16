@@ -19,7 +19,8 @@
     "mdbvue": "^6.7.1",
     "popper.js": "^1.16.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.4.2"
+    "vue-router": "^3.4.2",
+    "x5-gmaps": "^0.3.19"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
