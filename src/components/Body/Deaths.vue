@@ -24,15 +24,15 @@
 </template>
 
 <script>
-//const axios = require("axios")
+const axios = require("axios")
 import DeathsBar from '@/components/Visuals/DeathsBar'
 import DeathsLine from '@/components/Visuals/DeathsLine'
 import DeathsBread from '@/components/HomePage/Breads/DeathsBread'
 export default {
     data : ()=> {
         return {
-            labels : ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
-            deaths : [300, 700, 450, 750, 450],
+            labels : [],
+            deaths : [],
         }
         
     },
@@ -41,5 +41,29 @@ export default {
         DeathsLine,
         DeathsBread,
     },
+    mounted () {
+    axios
+      .get('https://covid19.mathdro.id/api/confirmed')
+      .then(response => response.data )
+      .then(data => {
+        var c=0
+        for(var i=0;i<1000;i++){
+          if(data[i].countryRegion=="India"){
+            if (data[i].provinceState in this.labels){
+              continue
+            }
+            else{
+              this.labels.push(data[i].provinceState)
+              this.deaths.push(data[i].deaths)
+              c=c+1
+              if(c==5){
+                break
+              }
+            }
+          }
+          
+        }
+      })
+  }
 }
 </script>

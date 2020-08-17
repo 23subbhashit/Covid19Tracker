@@ -7,12 +7,12 @@ import Chart from 'chart.js';
 
 export default {
   props: {
-    label: {
-      type: String
-    },
-    chartData: {
+    label:  {
       type: Array
     },
+    chartData:  {
+      type: Array
+    }
   },
   mounted() {
     new Chart(this.$refs.myChart, {

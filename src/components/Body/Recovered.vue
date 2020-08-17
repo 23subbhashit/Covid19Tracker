@@ -6,16 +6,16 @@
         <RecoveredBread></RecoveredBread>
         <hr/>
         <br>
-        <h2>Recovered</h2>
+        <h2>ACTIVE</h2>
         <RecoveredLine
         :label="labels"
-        :chart-data="deaths" 
+        :chart-data="active" 
         ></RecoveredLine>
         <br>
         <br>
         <RecoveredBar
         :label="labels"
-        :chart-data="deaths" 
+        :chart-data="active" 
         ></RecoveredBar>
         <br>
         <br>
@@ -24,14 +24,15 @@
 </template>
 
 <script>
+const axios = require("axios")
 import RecoveredLine from '../Visuals/RecoveredLine.vue'
 import RecoveredBar from '@/components/Visuals/RecoveredBar'
 import RecoveredBread from '@/components/HomePage/Breads/RecoveredBread'
 export default {
      data : ()=> {
         return {
-            labels : ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
-            deaths : [300, 700, 450, 750, 450],
+            labels : [],
+            active : [],
         }
         
     },
@@ -39,6 +40,31 @@ export default {
         RecoveredLine,
         RecoveredBar,
         RecoveredBread,
-    }
+    },
+    mounted () {
+    axios
+      .get('https://covid19.mathdro.id/api/confirmed')
+      .then(response => response.data )
+      .then(data => {
+        var c=0
+        for(var i=0;i<1000;i++){
+          if(data[i].countryRegion=="India"){
+            if (data[i].provinceState in this.labels){
+              continue
+            }
+            else{
+              this.labels.push(data[i].provinceState)
+              this.active.push(data[i].active)
+              c=c+1
+              if(c==5){
+                break
+              }
+            }
+          }
+          
+        }
+      })
+      .catch(err => console.log(err))
+  }    
 }
 </script>

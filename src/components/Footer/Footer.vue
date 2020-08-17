@@ -17,7 +17,7 @@
               <router-link to="/deaths" class="nav-link">Deaths</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/recovered" class="nav-link">Recovered</router-link>
+              <router-link to="/recovered" class="nav-link">Active</router-link>
             </li>
         </ul>
 

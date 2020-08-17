@@ -9,7 +9,7 @@ export default {
   name: 'monthly-sales-chart',
   props: {
     label: {
-      type: String
+      type: Array
     },
     chartData: {
       type: Array
@@ -22,7 +22,7 @@ export default {
         labels: this.label,
         datasets: [
         {
-            label: 'RECOVERED',
+            label: 'ACTIVE',
             backgroundColor: 'rgba(144,238,144 , 0.9 )',
             data: this.chartData,
         }

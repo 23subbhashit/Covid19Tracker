@@ -8,7 +8,7 @@ import Chart from 'chart.js';
 export default {
   props: {
     label: {
-      type: String
+      type: Array
     },
     chartData: {
       type: Array
