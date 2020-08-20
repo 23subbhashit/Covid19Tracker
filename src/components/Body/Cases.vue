@@ -42,14 +42,11 @@ export default {
         CasesBar,
         CaseBread
     },
-    async mounted () {
-    axios
-      .get('https://covid19.mathdro.id/api/confirmed')
-      .then(response => response.data )
-      .then(data => {
-        var c=0
-        for(var i=0;i<1000;i++){
-          if(data[i].countryRegion=="India"){
+    async created() {
+  const { data } = await axios.get("https://covid19.mathdro.id/api/confirmed");
+  var c=0
+  for(var i=0;i<1000;i++){
+    if(data[i].countryRegion=="India"){
             if (data[i].provinceState in this.labels){
               continue
             }
@@ -62,9 +59,8 @@ export default {
               }
             }
           }
-          
-        }
-      })
-  }    
+  }
+console.log(this.labels)
+}   
 }
 </script>

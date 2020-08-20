@@ -14,8 +14,8 @@ export default {
       type: Array
     }
   },
-  mounted() {
-    new Chart(this.$refs.myChart, {
+  async mounted() {
+    await new Chart(this.$refs.myChart, {
       type: 'bar',
       data: {
         labels: this.label,

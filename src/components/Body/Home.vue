@@ -8,7 +8,7 @@
         <Aboutcorona></Aboutcorona>
         <PerDayVisual></PerDayVisual>
         <DataCollector></DataCollector>
-        <Prevention></Prevention>
+        <Carousel></Carousel>
         <ProfileCards></ProfileCards>    
     </div>
 </template>
@@ -19,7 +19,8 @@ import Bread from '@/components/HomePage/Breads/Bread'
 import PerDayVisual from '@/components/HomePage/PerDayVisual'
 import Aboutcorona from '@/components/HomePage/Aboutcorona'
 import DataCollector from '@/components/DataGathering/DataCollector'
-import Prevention from '@/components/HomePage/Prevention'
+//import Prevention from '@/components/HomePage/Prevention'
+import Carousel from '@/components/HomePage/Carousel'
 export default {   
     components : {
         ProfileCards,
@@ -28,7 +29,8 @@ export default {
         PerDayVisual,
         Aboutcorona,
         DataCollector,
-        Prevention
+        //Prevention,
+        Carousel,
     }
 }
 </script>
