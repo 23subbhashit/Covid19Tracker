@@ -1,5 +1,5 @@
 <template>
-    <div class="jumbotron">
+    <div class="jumbotron m-3">
         <!--Carousel Wrapper-->
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
   <!--Indicators-->
