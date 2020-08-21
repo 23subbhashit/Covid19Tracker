@@ -1,5 +1,6 @@
 # covid19tracker
 
+<img src="./src/Tracker.png">
 ## Currently under work
 
 <hr>

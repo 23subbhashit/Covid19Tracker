@@ -56,7 +56,7 @@ export default {
               this.labels.push(data[i].provinceState)
               this.deaths.push(data[i].deaths)
               c=c+1
-              if(c==5){
+              if(c==28){
                 break
               }
             }

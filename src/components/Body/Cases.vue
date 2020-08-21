@@ -54,7 +54,7 @@ export default {
               this.labels.push(data[i].provinceState)
               this.confirmed.push(data[i].confirmed)
               c=c+1
-              if(c==5){
+              if(c==28){
                 break
               }
             }
