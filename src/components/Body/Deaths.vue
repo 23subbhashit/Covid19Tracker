@@ -41,8 +41,8 @@ export default {
         DeathsLine,
         DeathsBread,
     },
-    mounted () {
-    axios
+    async beforeMount() {
+     await axios
       .get('https://covid19.mathdro.id/api/confirmed')
       .then(response => response.data )
       .then(data => {

@@ -14,7 +14,7 @@ export default {
       type: Array
     },
   },
-  mounted() {
+  async mounted() {
     new Chart(this.$refs.myChart, {
       type: 'line',
       data: {
