@@ -1,7 +1,7 @@
 <template>
     
 <!------ Include the above in your HEAD tag ---------->
-<div class="Team">
+<div class="Jumbotron m-3">
 <!-- Team -->
 
     <div class="container m-3">
@@ -47,11 +47,11 @@
 </template>
 
 <style scoped>
-.Team{
+.Jumbotron{
     background-image: url('./assets/Nature-Mountain-Background-HD-Image.jpg');
     background-attachment: fixed;
     background-size: cover;
-    color : white
+    color : white;
 }
 
 
