@@ -2,27 +2,19 @@
   <div>
   <br>
   <br>
-    <GmapMap
-  :center="{lat:10, lng:10}"
-  :zoom="7"
-  map-type-id="terrain"
-  style=" height: 400px"
->
-  <GmapMarker
-    :key="index"
-    v-for="(m, index) in markers"
-    :position="m.position"
-    :clickable="true"
-    :draggable="true"
-    @click="center=m.position"
-  />
-</GmapMap>
-<br>
+  <MapBread></MapBread>
+  <hr/>
+  <MapVisual></MapVisual>
   </div>
 </template>
 
 <script>
+import MapVisual from '@/components/MapComponents/MapVisual'
+import MapBread from '@/components/HomePage/Breads/MapBread'
 export default {
-  
+  components :{
+    MapVisual,
+    MapBread
+  }
 }
 </script>
