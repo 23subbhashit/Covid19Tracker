@@ -1,7 +1,7 @@
 # **covid19tracker**
 
 **Line chart**
-<img src="./src/LineChart.png">
+<img src="./src/LineChrat.png">
 
 **Bar chart**
 <img src="./src/BarChart.png">
