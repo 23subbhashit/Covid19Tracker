@@ -1,6 +1,11 @@
-# covid19tracker
+# **covid19tracker**
 
-<img src="./src/Tracker.png">
+**Line chart**
+<img src="./src/LineChart.png">
+
+**Bar chart**
+<img src="./src/BarChart.png">
+
 ## Currently under work
 
 <hr>
