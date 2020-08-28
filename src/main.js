@@ -1,3 +1,4 @@
+//AIzaSyAawqynMywLGwnPkoJb8XzYxn60YVrixrc
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
@@ -7,8 +8,16 @@ import 'mdbootstrap/css/mdb.min.css'
 import 'mdbvue/lib/css/mdb.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
 //import x5GMaps from 'x5-gmaps'
 import { routes } from './routes'
+import * as VueGoogleMaps from 'vue2-google-maps'
+ 
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'AIzaSyAawqynMywLGwnPkoJb8XzYxn60YVrixrc',
+  },
+})
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
