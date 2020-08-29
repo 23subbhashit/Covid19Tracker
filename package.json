@@ -16,6 +16,7 @@
     "core-js": "^3.6.5",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
+    "leaflet": "^1.6.0",
     "mapbox-gl": "^1.12.0",
     "mdbootstrap": "^4.19.1",
     "mdbvue": "^6.7.1",
@@ -23,6 +24,8 @@
     "vue": "^2.6.11",
     "vue-router": "^3.4.2",
     "vue2-google-maps": "^0.10.7",
+    "vue2-leaflet": "^2.5.2",
+    "vuex": "^3.5.1",
     "x5-gmaps": "^0.3.19"
   },
   "devDependencies": {

@@ -19,6 +19,9 @@
             <li class="nav-item">
               <router-link to="/recovered" class="nav-link">Active</router-link>
             </li>
+            <li class="nav-item">
+              <router-link to="/map" class="nav-link">Map</router-link>
+            </li>
         </ul>
 
       </div>

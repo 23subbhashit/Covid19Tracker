@@ -1,8 +1,8 @@
 <template>
   <div>
     <GmapMap
-  :center="{lat:10, lng:10}"
-  :zoom="7"
+  :center="{lat: lat, lng: long}"
+  :zoom="12"
   map-type-id="terrain"
   style=" height: 400px"
 >
@@ -21,6 +21,23 @@
 
 <script>
 export default {
+  data : () =>{
+    return{
+      lat : 0,
+      long : 0,
+    }
+  },
+  mounted : function() {
+    this.geolocation();
+ },
+ methods: {
+    geolocation : function() {
+      navigator.geolocation.getCurrentPosition((position) => {
+          this.lat = position.coords.latitude,
+          this.long = position.coords.longitude
+      });
+    }
+}
   
 }
 </script>

@@ -6,7 +6,7 @@
                     <router-link to="/"> HOME </router-link>
                 </li>
                 <li class="breadcrumb-item active ">
-                    <router-link to="/map"> Map </router-link>
+                    <router-link to="/map"> MAP </router-link>
                 </li>
             </ol>
         </div>
