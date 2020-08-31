@@ -1,6 +1,6 @@
 <template>
     <div>
-      
+      {{ country }}
     </div>
 </template>
 
@@ -13,9 +13,10 @@ export default {
       country : [],
       lat : [],
       long : [],
+      confirmed : [],
     }
   },
-  async created() {
+  created() {
       axios.get("https://corona.lmao.ninja/v2/jhucsse")
       //.then(data => data.Promise)
     .then(r => r["data"])
@@ -26,11 +27,17 @@ export default {
             }
             else{
                 
-                if(data[i].coordinates["latitude"]==null || data[i].coordinates["longitude"]){
+                if(data[i].coordinates["latitude"]!=null && data[i].coordinates["longitude"]!=null){
                     this.country.push(data[i].country)
+                    this.lat.push(data[i].coordinates["latitude"])
+                    this.long.push(data[i].coordinates["longitude"])
+                    this.confirmed.push(data[i].stats["confirmed"])
                     console.log(data[i].country)
                     console.log(data[i].coordinates["latitude"])
                     console.log(data[i].coordinates["longitude"])
+                    console.log(data[i].stats["confirmed"])
+                    //stats,confirmed,deaths,recovered
+                    // console.log(data[i])
                 }
                 
                 
