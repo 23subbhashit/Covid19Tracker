@@ -1,5 +1,5 @@
 <template>
-    
+ <vue-aos animation-class="fadeIn animated">   
 <!------ Include the above in your HEAD tag ---------->
 <div class="Jumbotron m-3">
 <!-- Team -->
@@ -44,7 +44,16 @@
 </div>
 <!-- Team -->
 </div>
+</vue-aos>
 </template>
+
+<script>
+  import VueAos from 'vue-aos'
+ 
+  export default {
+    components: { VueAos }
+  }
+</script>
 
 <style scoped>
 .Jumbotron{
