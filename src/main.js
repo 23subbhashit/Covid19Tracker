@@ -8,6 +8,8 @@ import 'mdbootstrap/css/mdb.min.css'
 import 'mdbvue/lib/css/mdb.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 //import x5GMaps from 'x5-gmaps'
 import { routes } from './routes'
@@ -36,6 +38,9 @@ const router = new VueRouter({
 
 
 new Vue({
+  created () {
+    AOS.init()
+  },
   render: h => h(App),
   router,
 }).$mount('#app')

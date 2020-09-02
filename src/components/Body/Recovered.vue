@@ -7,16 +7,20 @@
         <hr/>
         <br>
         <h2>ACTIVE</h2>
+        <div data-aos="fade-right" data-aos-duration="3000">
         <RecoveredLine
         :label="labels"
         :chart-data="active" 
         ></RecoveredLine>
+        </div>
         <br>
         <br>
+        <div data-aos="fade-left" data-aos-duration="3000">
         <RecoveredBar
         :label="labels"
         :chart-data="active" 
         ></RecoveredBar>
+        </div>
         <br>
         <br>
     </div>

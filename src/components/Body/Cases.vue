@@ -7,16 +7,20 @@
         <hr/>
         <br>
         <h2>Cases</h2>
+        <div data-aos="fade-right" data-aos-duration="3000">
         <CasesLine
         :label="labels"
         :chart-data="confirmed" 
         ></CasesLine>
+        </div>
         <br>
         <br>
+        <div data-aos="fade-left" data-aos-duration="3000">
         <CasesBar
         :label="labels"
         :chart-data="confirmed" 
         ></CasesBar>
+        </div>
         <br>
         <br>
     </div>

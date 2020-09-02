@@ -7,16 +7,20 @@
         <hr/>
         <br>
         <h2>Deaths</h2>
+        <div data-aos="fade-right" data-aos-duration="3000">
         <DeathsLine 
         :label="labels"
         :chart-data="deaths"        
         ></DeathsLine>
+        </div>
         <br>
         <br>
+        <div data-aos="fade-left" data-aos-duration="3000">
         <DeathsBar
         :label="labels"
         :chart-data="deaths" 
         ></DeathsBar>
+        </div>
         <br>
         <br>
     </div>

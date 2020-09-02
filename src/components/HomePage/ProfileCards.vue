@@ -1,5 +1,5 @@
 <template>
- <vue-aos animation-class="fadeIn animated">   
+ <div data-aos="zoom-in-down" data-aos-duration="3000">
 <!------ Include the above in your HEAD tag ---------->
 <div class="Jumbotron m-3">
 <!-- Team -->
@@ -44,15 +44,15 @@
 </div>
 <!-- Team -->
 </div>
-</vue-aos>
+</div>
 </template>
 
 <script>
-  import VueAos from 'vue-aos'
+//   import VueAos from 'vue-aos'
  
-  export default {
-    components: { VueAos }
-  }
+//   export default {
+//     components: { VueAos }
+//   }
 </script>
 
 <style scoped>

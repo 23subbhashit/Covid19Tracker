@@ -1,4 +1,5 @@
 <template>
+<div data-aos="fade-left" data-aos-duration="3000">
   <div class="m-3">
   <b-card no-body>
     <b-tabs pills card vertical>
@@ -9,6 +10,7 @@
     </b-tabs>
   </b-card>
   </div>
+</div>
 </template>
 
 <style scoped>

@@ -1,4 +1,5 @@
 <template>
+<div data-aos="fade-right" data-aos-duration="3000">
     <div class="jumbotron m-3">
 <div class="row w-100">
         <div class="col-md-4">
@@ -24,6 +25,7 @@
         </div>
         
      </div>
+</div>
 </div>
 </template>
 
