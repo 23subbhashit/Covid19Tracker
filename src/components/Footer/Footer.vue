@@ -50,7 +50,7 @@
       <hr class="clearfix w-100 d-md-none">
       <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
         <h5 class="font-weight-bold text-uppercase mb-4">Follow Me</h5>
-
+        
         <a href="https://www.facebook.com/subbhashit.mukherjee" class="btn btn-facebook"><i class="fa fa-facebook fa-lg"></i></a>
         <a href="https://www.linkedin.com/in/subbhashit-mukherjee-71849a148/" class="btn btn-linkedin"><i class="fa fa-linkedin fa-lg"></i></a>
         <a href="https://twitter.com/SMukhkherjee" class="btn btn-twitter"><i class="fa fa-twitter fa-lg"></i></a>

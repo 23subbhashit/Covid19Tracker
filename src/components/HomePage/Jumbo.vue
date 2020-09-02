@@ -1,11 +1,13 @@
 <template>
-
+<div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
 <div class="main-content">
   <div class="concept concept-five">
     <h1 class="word"><span class="char">C</span><span class="char">O</span><span class="char">V</span><span class="char">I</span><span class="char">D</span><span class="char">1</span><span class="char">9</span></h1>
   </div>
 </div>
-
+</div>
   
 </template>
 
