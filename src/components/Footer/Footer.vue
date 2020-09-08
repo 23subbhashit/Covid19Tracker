@@ -1,6 +1,6 @@
 <template>
 <div>
-<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+<footer class="page-footer font-small mdb-color dark-3 pt-4">
   <div class="container text-center text-md-left">
     <div class="row">
       <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
@@ -70,4 +70,10 @@
 </div>
 </template>
 
+<style scoped>
+ul li router-link:hover {
+  background-color: aqua;
+}
+
+</style>
 

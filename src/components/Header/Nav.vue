@@ -1,8 +1,10 @@
 <template>
   <div class="hello">
-   <nav class="navbar custom-nav fixed-top navbar-expand-lg navbar-light bg-light">
+   <nav class="navbar custom-nav fixed-top navbar-expand-lg navbar-light bg-dark">
      <div class="container">
-        <router-link class="navbar-brand" to="/">Covid19 Tracker</router-link>
+        <router-link class="navbar-brand" to="/"><span class="text-danger" style="font-size : 28px">
+            COVID19<span class="text-warning" style="font-size : 23px">TRACKER</span>
+          </span></router-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -10,23 +12,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <router-link to="/" class="nav-link">Home</router-link>
+              <router-link to="/" class="nav-link"><span style="color : white">Home</span></router-link>
             </li>
 
             <li class="nav-item">
-              <router-link to="/cases" class="nav-link">Cases</router-link>
+              <router-link to="/cases" class="nav-link"><span style="color : white">Cases</span></router-link>
             </li>
 
             <li class="nav-item">
-              <router-link to="/deaths" class="nav-link">Deaths</router-link>
+              <router-link to="/deaths" class="nav-link"><span style="color : white">Deaths</span></router-link>
             </li>
 
             <li class="nav-item">
-              <router-link to="/recovered" class="nav-link">Active</router-link>
+              <router-link to="/recovered" class="nav-link"><span style="color : white">Active</span></router-link>
             </li>
 
             <li class="nav-item">
-              <router-link to="/map" class="nav-link">Map</router-link>
+              <router-link to="/map" class="nav-link"><span style="color : white">Map</span></router-link>
             </li>
           
           </ul>
@@ -52,4 +54,17 @@ export default {
   components:{}
 };
 </script>
+<style scoped>
+.nav-item{
+  padding: 10px;
+}
+ul li .nav-link{
+  padding: 20px;
+}
+ul li .nav-link:hover{
+  background : #2C3E50;
+  padding: 20px;
+}
+</style>
+
 

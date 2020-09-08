@@ -10,6 +10,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+//import $ from 'jquery'
 
 //import x5GMaps from 'x5-gmaps'
 import { routes } from './routes'
@@ -20,6 +21,10 @@ Vue.use(VueGoogleMaps, {
     key: 'AIzaSyAawqynMywLGwnPkoJb8XzYxn60YVrixrc',
   },
 })
+
+global.jQuery = require('jquery');
+var $ = global.jQuery;
+window.$ = $;
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
