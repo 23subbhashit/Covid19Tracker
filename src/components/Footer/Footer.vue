@@ -74,6 +74,7 @@
 ul li router-link:hover {
   background-color: aqua;
 }
-
+a{
+  border-radius: 50%;
+}
 </style>
-
