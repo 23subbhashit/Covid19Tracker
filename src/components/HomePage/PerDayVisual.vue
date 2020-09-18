@@ -2,7 +2,7 @@
 <div data-aos="fade-right" data-aos-duration="3000">
 <br/>
 <br/>
-<h2 style="font-weight: bold;">Per Day Cases</h2>
+<h2 style="font-weight: bold;font-size:50px"><span style="color:yellow">DAILY  </span><span style="color:#FF8C00">REPORT</span></h2>
 <br/>
 <br/>
     <div class="m-3">

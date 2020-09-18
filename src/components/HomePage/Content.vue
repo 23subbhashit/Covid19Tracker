@@ -3,7 +3,7 @@
 <div data-aos="zoom-in-left" data-aos-duration="3000">
 <br/>
 <br/>
-<h2 style="font-weight: bold;">Safety Methods</h2>
+<h2 style="font-weight: bold;font-size:50px"><span style="color:yellow">SAFETY </span><span style="color:	#FF8C00">METHODS</span></h2>
 <br/>
 <br/>
 <div class="how-section1">
