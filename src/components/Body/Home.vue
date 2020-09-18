@@ -8,6 +8,7 @@
         <Aboutcorona></Aboutcorona>
         <PerDayVisual></PerDayVisual>
         <!--<Carousel></Carousel>-->
+        <Content></Content>
         <ProfileCards></ProfileCards>    
     </div>
 </template>
@@ -17,6 +18,7 @@ import ProfileCards from '@/components/HomePage/ProfileCards'
 import Bread from '@/components/HomePage/Breads/Bread'
 import PerDayVisual from '@/components/HomePage/PerDayVisual'
 import Aboutcorona from '@/components/HomePage/Aboutcorona'
+import Content from '@/components/HomePage/Content'
 //import DataCollector from '@/components/DataGathering/DataCollector'
 //import ForMap from '@/components/DataGathering/ForMap'
 //import Prevention from '@/components/HomePage/Prevention'
@@ -28,6 +30,7 @@ export default {
         Jumbo,
         PerDayVisual,
         Aboutcorona,
+        Content,
         //ForMap
         //Prevention,
         //Carousel,

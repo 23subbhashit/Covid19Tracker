@@ -1,5 +1,9 @@
 <template>
 <div data-aos="fade-left" data-aos-duration="3000">
+  <br/>
+<br/>
+<h2 style="font-weight: bold;">About</h2>
+<br/>
   <div class="m-3">
   <b-card no-body>
     <b-tabs pills card vertical>
@@ -10,6 +14,8 @@
     </b-tabs>
   </b-card>
   </div>
+  <br/>
+  <br/>
 </div>
 </template>
 

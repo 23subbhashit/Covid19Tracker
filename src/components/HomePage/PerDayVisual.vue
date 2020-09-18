@@ -1,6 +1,11 @@
 <template>
 <div data-aos="fade-right" data-aos-duration="3000">
-    <div class="jumbotron m-3">
+<br/>
+<br/>
+<h2 style="font-weight: bold;">Per Day Cases</h2>
+<br/>
+<br/>
+    <div class="m-3">
 <div class="row w-100">
         <div class="col-md-4">
             <div class="card border-info mx-sm-1 p-3">
