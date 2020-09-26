@@ -1,17 +1,14 @@
 <template>
 <div>
-<ul>
-        <li v-for="(l,i) in latlong" :key="i">
-            {{l}}
-        </li>
-      </ul>
   <div style="height: 80vh">
     <LMap  @ready="onReady" @locationfound="onLocationFound" :zoom="zoom" :center="center">
       <LTileLayer :url="url"></LTileLayer>
-      <LMarker :lat-lng="[13.1333682,77.5651881]"></LMarker>
-      <LMarker :lat-lng="[13.1340669,77.56707]"></LMarker>
-      <LMarker :lat-lng="[13.1348904,77.5643231]"></LMarker>
-      <LMarker :lat-lng="[13.1367826,77.5711133]"></LMarker>
+      
+      <ul>
+        <li v-for="(l,i) in latlong" :key="i">
+            <LMarker :lat-lng="l"></LMarker>
+        </li>
+      </ul>
       
       
     </LMap>
@@ -38,7 +35,7 @@ export default {
   data() {
     return {
       url: "https://{s}.tile.osm.org/{z}/{x}/{y}.png",
-      zoom: 4,
+      zoom: 2,
       center: [13.1367826,77.5711133],
       bounds: null,
       results : null,
