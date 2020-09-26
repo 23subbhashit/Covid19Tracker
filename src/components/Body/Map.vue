@@ -4,20 +4,20 @@
   <br>
   <MapBread></MapBread>
   <hr/>
-  <ForMap></ForMap>
-  <MapVisual></MapVisual>
+  <!--<ForMap></ForMap>-->
+  <MapVisual2></MapVisual2>
   </div>
 </template>
 
 <script>
-import MapVisual from '@/components/MapComponents/MapVisual'
+import MapVisual2 from '@/components/MapComponents/MapVisual2'
 import MapBread from '@/components/HomePage/Breads/MapBread'
-import ForMap from '@/components/DataGathering/ForMap'
+//import ForMap from '@/components/DataGathering/ForMap'
 export default {
   components :{
-    MapVisual,
+    MapVisual2,
     MapBread,
-    ForMap
+    //ForMap
   }
 }
 </script>

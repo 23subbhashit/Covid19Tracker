@@ -1,19 +1,12 @@
 <template>
   <div>
     <GmapMap
-  :center="{lat: lat, lng: long}"
-  :zoom="12"
+  :center="{lat: 0, lng: 0}"
+  :zoom="5"
   map-type-id="terrain"
   style=" height: 400px"
 >
-  <GmapMarker
-    :key="index"
-    v-for="(m, index) in markers"
-    :position="m.position"
-    :clickable="true"
-    :draggable="true"
-    @click="center=m.position"
-  />
+  
 </GmapMap>
 <br>
   </div>
@@ -23,8 +16,8 @@
 export default {
   data : () =>{
     return{
-      lat : 0,
-      long : 0,
+      lat : null,
+      long : null,
     }
   },
   mounted : function() {

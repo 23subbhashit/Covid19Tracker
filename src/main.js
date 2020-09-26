@@ -10,17 +10,18 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import 'leaflet/dist/leaflet.css';
 //import $ from 'jquery'
 
 //import x5GMaps from 'x5-gmaps'
 import { routes } from './routes'
-import * as VueGoogleMaps from 'vue2-google-maps'
+//import * as VueGoogleMaps from 'vue2-google-maps'
  
-Vue.use(VueGoogleMaps, {
-  load: {
-    key: 'AIzaSyAawqynMywLGwnPkoJb8XzYxn60YVrixrc',
-  },
-})
+// Vue.use(VueGoogleMaps, {
+//   load: {
+//     key: 'AIzaSyAawqynMywLGwnPkoJb8XzYxn60YVrixrc',
+//   },
+// })
 
 global.jQuery = require('jquery');
 var $ = global.jQuery;
