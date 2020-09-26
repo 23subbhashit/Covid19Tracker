@@ -2,11 +2,10 @@
   <div style="height: 80vh">
     <LMap :zoom="zoom" :center="center">
       <LTileLayer :url="url"></LTileLayer>
-      <LMarker :lat-lng="[47.413220, -1.219482]"></LMarker>
-      <LMarker :lat-lng="[46.193220, 4.82]"></LMarker>
-      <LMarker :lat-lng="[45.193220, 6.82]"></LMarker>
-      <LMarker :lat-lng="[47.03220, -0.9482]"></LMarker>
-      <LMarker :lat-lng="[46.03220, 2.9482]"></LMarker>
+      <LMarker :lat-lng="[13.1333682,77.5651881]"></LMarker>
+      <LMarker :lat-lng="[13.1340669,77.56707]"></LMarker>
+      <LMarker :lat-lng="[13.1348904,77.5643231]"></LMarker>
+      <LMarker :lat-lng="[13.1367826,77.5711133]"></LMarker>
     </LMap>
   </div>
 </template>
@@ -23,8 +22,8 @@ export default {
   data() {
     return {
       url: "https://{s}.tile.osm.org/{z}/{x}/{y}.png",
-      zoom: 6,
-      center: [46.5322, 2.9482],
+      zoom: 16,
+      center: [13.1367826,77.5711133],
       bounds: null
     };
   }
