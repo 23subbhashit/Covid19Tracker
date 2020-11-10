@@ -6,9 +6,11 @@
 **Bar chart**
 <img src="./src/BarChart.png">
 
-## Currently under work
+**Map View**
+<br/>
+![covid19tracker - Google Chrome 26-09-2020 19_22_25 (2)](https://user-images.githubusercontent.com/43717493/98665829-2e011980-2372-11eb-95d9-90955fc20c51.png)
 
-<hr>
+
 
 ## Project setup
 ```
